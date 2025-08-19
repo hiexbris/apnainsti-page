@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./apnaInsti.css";
-import bgImage from "./website.png";
+import bgImage from "./website.jpg";
 
 export default function ApnaInstiPage() {
   const [imageHeight, setImageHeight] = useState("100vh");
@@ -42,8 +42,8 @@ export default function ApnaInstiPage() {
     const isSmallScreen = window.innerWidth < 768;
     return {
       position: "absolute",
-      top: "85%",
-      left: "47%",
+      top: "63%",
+      left: "50%",
       transform: "translate(-50%, -50%)",
       backgroundColor: "#2b6af0",
       color: "white",
