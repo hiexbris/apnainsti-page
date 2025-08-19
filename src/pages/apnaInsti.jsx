@@ -102,7 +102,7 @@ export default function ApnaInstiPage() {
             e.target.style.boxShadow = "0 4px 12px rgba(43, 106, 240, 0.3)";
           }}
         >
-          Download APK
+          Download ApnaInsti
         </button>
       </div>
 
